@@ -3,6 +3,8 @@
 * [Background and Motivation](#Background)
 * [Requirements](#Requirements)
 * [Future Steps](#future-steps)
+* [Virtual Environments](#Virtual-Environments)
+* [Pip](#Pip-Install)
 
 
 ## Intro
