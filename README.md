@@ -21,28 +21,23 @@ Link: [Create your own AI Assistant | Python | 2022](https://youtu.be/OqFI_g8vAo
 Here are all of the packages you need to install in order for this project to work. I recommend you create a new virtual environment to install all of these on. Here are instructions on how to pip install packages and create your own virtual environment: [Pip](#Pip-Install) and [Virtual Environments](#Virtual-Environments)
 * speech_recognition
 * pyttsx3  
+* webbrowser
+* wikipedia
 
 
 ## Future Steps
 I plan to add many of my own features and customizations to this project. Here are the ones I thought of so far:
-* Custom voice - Train a new AI voice instead of using the pre-made one from the library. Maybe base it off of someone famous.
-* 
-
-
-
-
-
-
-
-
-
-
-
-## Pip Install
-
-
-
-
+* **Custom Voice** - Train a new AI voice instead of using the pre-made one from the library. Maybe base it off of someone famous.
+* **Web Scraping** - Gather more specific information from online searches and record it in a document
 
 
 ## Virtual Environments
+
+
+## Pip Install
+To install the python packages above, use the following command in your virtual environment:
+''' 
+$ pip install your-package-name-here
+'''
+
+
