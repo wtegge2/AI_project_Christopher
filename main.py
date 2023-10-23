@@ -1,10 +1,9 @@
-from date import datetime
+from datetime import datetime
 from logging.config import listen
 import speech_recognition as sr     # standard speech recognition library
 import pyttsx3                      # text to speech library
 import webbrowser                   # webbrowser library
 import wikipedia
-import wolframalpha
 
 ### IMPORTANT NOTES ### 
 # need to pip install all of these requirements
@@ -17,7 +16,7 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)       # options: 0 = male, 1 = female
 activationWord = 'Christopher'                  # Single word activation   
                                                 # listens for this word in order to trigger a command
- 
+
 
 # Configure browser
 # Set the path for whichever browser you wish to use
