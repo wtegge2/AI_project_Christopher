@@ -36,8 +36,8 @@ I plan to add many of my own features and customizations to this project. Here a
 
 ## Pip Install
 To install the python packages above, use the following command in your virtual environment:
-''' 
+```
 $ pip install your-package-name-here
-'''
+```
 
 
