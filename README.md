@@ -32,12 +32,26 @@ I plan to add many of my own features and customizations to this project. Here a
 
 
 ## Virtual Environments
+To create your own virtual environment on windows, run the following command in the directory of your project:
+```
+$ python3 -m venv new-environment-name
+``` 
+
+To activate this virtual environment you just made, run the following command in the directory of your project:
+```
+$ new-environment-name\Scripts\activate
+```
+
+To deactivate this virtual environment, run the following command in the directory of your project:
+```
+$ deactivate
+```
 
 
 ## Pip Install
 To install the python packages above, use the following command in your virtual environment:
 ```
-$ pip install your-package-name-here
+$ pip install package-name-here
 ```
 
 
